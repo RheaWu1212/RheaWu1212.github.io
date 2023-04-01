@@ -1,4 +1,5 @@
 import './portfolio.css';
+//import git from './image/git.svg';
 import './image';
 // import React, { useState, useEffect } from 'react';
 // import { Route, Routes, Navigate } from 'react-router-dom';
@@ -17,12 +18,12 @@ export const Portfolio = () => {
           <h1 className='portfolio-name'>RHEA WU</h1>
         </div>
         <div className='portfolio-overlap-group'>
-          <img className='portfolio-stack-gh' src='tabler-brand-github.svg' />
+          <img className='portfolio-stack-gh' src={github.svg} />
           <div className='portfolio-overlap-group12'>
             <div className='portfolio-overlap-group11'>
               <div className='portfolio-overlap-group10'>
-                <img className='portfolio-stack-git' src='mdi-git.svg' />
-                <img className='portfolio-stack-docker' src='bxl-docker.svg' />
+                <img className='portfolio-stack-git' src={git.svg} />
+                <img className='portfolio-stack-docker' src={docker.svg} />
               </div>
               <div className='portfolio-overlap-group7'>
 
