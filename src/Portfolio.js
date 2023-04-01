@@ -1,11 +1,11 @@
 import './portfolio.css';
-import React, { useState, useEffect } from 'react';
-import { Route, Routes, Navigate } from 'react-router-dom';
 import './asset';
-import HeaderBar from './components/HeaderBar';
-import AboutMe from './components/AboutMe';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
+// import React, { useState, useEffect } from 'react';
+// import { Route, Routes, Navigate } from 'react-router-dom';
+// import HeaderBar from './components/HeaderBar';
+// import AboutMe from './components/AboutMe';
+// import Projects from './components/Projects';
+// import Contact from './components/Contact';
 
 export const Portfolio = () => {
   return (
