@@ -1,7 +1,7 @@
 import './portfolio.css';
 import React, { useState, useEffect } from 'react';
 import { Route, Routes, Navigate } from 'react-router-dom';
-import './assets';
+import './asset';
 import HeaderBar from './components/HeaderBar';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
