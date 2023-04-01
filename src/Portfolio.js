@@ -1,4 +1,4 @@
-import './Portfolio.css';
+import './portfolio.css';
 import React, { useState, useEffect } from 'react';
 import { Route, Routes, Navigate } from 'react-router-dom';
 import './assets';
@@ -9,11 +9,7 @@ import Contact from './components/Contact';
 
 export const Portfolio = () => {
   return (
-    
-      {/* <HeaderBar />
-      <AboutMe />
-      <Projects />
-      <Contact /> */}
+
     <div className='portfolio-p-wrapper'>
       <div className='portfolio-p'>
         <div className='portfolio-overlap'>
@@ -29,7 +25,7 @@ export const Portfolio = () => {
                 <img className='portfolio-stack-docker' src='bxl-docker.svg' />
               </div>
               <div className='portfolio-overlap-group7'>
-                
+
               </div>
             </div>
           </div>
