@@ -1,4 +1,101 @@
-.portfolio-p-wrapper {
+
+/* this is for header */
+.header {
+    background-color: #d0d0d0;
+    width: 100%;
+    top: 0;
+    position: absolute;
+}
+
+.profile-aboutme, .profile-stack, .profile-contact {
+    width: 100px;
+    height: 100px;
+}
+.icon {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+}
+.profile-name {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 180px;
+    text-align: center;
+    text-shadow: #ebebeb 2px 5px;
+    margin: 60px auto 0 auto;
+    color: #282828;
+}
+.profile-pic {
+    width: 500px;
+    height: 500px;
+    border: 3px #9d00ff;
+    border-radius: 50%;
+}
+.profile-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.profile-title-l, .profile-title-m, .profile-title-r {
+    width: 500px;
+    height: 500px;
+}
+.title-wrap-l, .title-wrap-r {
+    text-align: center;
+    margin: 150px 60px;
+}
+.profile-title-l-2, .profile-title-r-2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    color: #282828
+}
+.profile-title-l-1, .profile-title-r-1 {
+    font-family: 'Italianno', cursive;
+    font-size: 50px;
+    color: #282828
+}
+
+/* this is for projects */
+.projects {
+    background-color: #ebebeb;
+    margin: 836px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-stack {
+    width: 50px;
+    height: 50px;
+}
+.vline-1, .vline-2 {
+    height: 250px;
+    width: 50px;
+}
+.swe-right {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: #282828;
+    text-decoration: none;
+}
+/* this is for aboutme */
+.aboutme {
+    background-color: #d0d0d0;
+    top: 0;
+}
+/* this is for contact */
+.contact {
+    background-color: #d0d0d0;
+    top: 0;
+}
+
+
+
+
+
+/* .portfolio-p-wrapper {
     background-color: #d0d0d0;
     display: flex;
     flex-direction: row;
@@ -587,4 +684,4 @@
     top: 65px;
     transition: all 0.2s ease;
     position: fixed;
-}
+} */
