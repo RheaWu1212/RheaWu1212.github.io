@@ -6,3 +6,585 @@
     width: 100%;
 }
 
+.portfolio-p {
+    background-color: #d0d0d0;
+    border: 1px none;
+    height: 3248px;
+    width: 1920px; 
+    position: relative;
+}
+
+.portfolio-overlap {
+    height: 189px;
+    width: 1914px;
+    left: 6px;
+    top: 128px;
+    position: absolute;
+}
+
+.portfolio-frame {
+    background-color: #d9d9d9;
+    border: 1px solid;
+    height: 22px;
+    width: 1914px;
+    left: 0;
+    top: 95px;
+    positon: absolute;
+
+}
+
+.portfolio-name {
+    color: #282828;
+    font-family: "italiana", Helvetica;
+    font-size: 180px;
+    font-weight: 400;
+    left: 488px;
+    letter-spacing: 0;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0px 4px 4px #00000040;
+    top: 0;
+    width: 923px;
+}
+
+.portfolio-overlap-group {
+    background-color: #ebebeb;
+    height: 613px;
+    width:1920px;
+    left: 0;
+    top: 1153px;
+    position: absolute;
+}
+
+.portfolio-stack-gh {
+    height: 89px;
+    width: 89px;
+    left: 766px;
+    top: 437px;
+    position: absolute;
+}
+
+.portfolio-overlap-group12 {
+    height: 552px;
+    width: 581px;
+    left: 405px;
+    top: 31px;
+    position: absolute;
+}
+
+.portfolio-overlap-group11 {
+    height: 552px;
+    width: 581px;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.portfolio-overlap-group10 {
+    height: 89px;
+    width: 169px;
+    left: 192px;
+    top: 407px;
+    position: absolute;
+}
+
+.portfolio-stack-git {
+    height: 89px;
+    width: 89px;
+    left: 81px;
+    top: 0;
+    position: absolute;
+}
+
+.portfolio-stack-docker {
+    height: 89px;
+    width: 89px;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.portfolio-overlap-group7 {
+    height: 552px;
+    width: 241px;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.portfolio-stack-aws {
+    height: 89px;
+    width: 89px;
+    left: 104px;
+    top: 407px;
+    position: absolute;
+}
+
+.portfolio-stack-webpack {
+    height: 89px;
+    width: 89px;
+    left: 17px;
+    top: 407px;
+    position: absolute;
+}
+
+.portfolio-stack-graphql {
+    height: 89px;
+    width: 89px;
+    left: 0;
+    top: 236px;
+    position: absolute;
+}
+
+.portfolio-stack-express {
+    height: 39px;
+    width: 140px;
+    left: 101px;
+    top: 80px;
+    position: absolute;
+}
+
+.portfolio-stack-mongo {
+    height: 89px;
+    width: 89px;
+    left: 17px;
+    top: 56px;
+    position: absolute;
+}
+
+.portfolio-line-v {
+    height: 552px;
+    width: 1px;
+    left: 45px;
+    top: 0;
+    position: absolute;
+}
+
+.portfolio-overlap-group9 {
+    height: 90px;
+    width: 249px;
+    left: 332px;
+    top: 55px;
+    position: absolute;
+}
+
+.portfolio-stack-html {
+    height: 89px;
+    width: 89px;
+    left: 161px;
+    top: 0;
+    position: absolute;
+}
+
+.portfolio-stack-css {
+    height: 89px;
+    width: 89px;
+    left: 85px;
+    top: 2px;
+    position: absolute;
+}
+
+.portfolio-stack-node {
+    height: 89px;
+    width: 89px;
+    left: 0;
+    top: 1px;
+    position: absolute;
+}
+
+.portfolio-stack-react {
+    height: 89px;
+    width: 89px;
+    left: 245px;
+    top: 56px;
+    position: absolute;
+}
+
+.portfolio-stack-postgresql {
+    height: 89px;
+    width: 89px;
+    left: 318px;
+    top: 269px;
+    position: absolute;
+}
+
+.portfolio-stack-typescript {
+    height: 89px;
+    width: 89px;
+    left: 230px;
+    top: 269px;
+    position: absolute;
+}
+
+.portfolio-overlap-group8 {
+    height: 506px;
+    width: 450px;
+    left: 1254px;
+    top: 54px;
+    position: absolute;
+}
+
+.portfolio-line-v.1 {
+    height: 552px;
+    width: 1px;
+    left: 276px;
+    top: 0;
+    position: absolute;
+}
+
+.portfolio-text-wrapper-q {
+    color: #282828;
+    cursor: pointer;
+    font-family: "italiana", Helvetica;
+    font-size: 60px;
+    font-weight: 400;
+    left: 101px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 383px;
+    width: 923px;
+    transition: all 0.1s ease;
+}
+
+.portfolio-text-wrapper-j {
+    color: #282828;
+    cursor: pointer;
+    font-family: "italiana", Helvetica;
+    font-size: 60px;
+    font-weight: 400;
+    left: 196px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 268px;
+    width: 254px;
+    transition: all 0.1s ease;
+}
+
+.portfolio-text-wrapper-g {
+    color: #282828;
+    cursor: pointer;
+    font-family: "italiana", Helvetica;
+    font-size: 60px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 162px;
+    width: 310px;
+    transition: all 0.1s ease;
+}
+
+.portfolio-text-wrapper-l {
+    color: #282828;
+    cursor: pointer;
+    font-family: "italiana", Helvetica;
+    font-size: 60px;
+    font-weight: 400;
+    left: 223px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 56px;
+    width: 227px;
+    transition: all 0.1s ease;
+}
+
+.portfolio-overlap-group3 {
+    height: 53px;
+    width: 1040px;
+    left: 0;
+    top: 17px;
+    position: absolute;
+}
+
+.portfolio-line-h {
+    height: 3px;
+    width: 1040px;
+    left: 0;
+    top: 17px;
+    position: absolute;
+}
+
+.portfolio-contact-1 {
+    color: #282828;
+    cursor: pointer;
+    font-family: "Lusitana", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 863px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1px;
+    width: 188px;
+    transition: all 0.2s ease;
+}
+
+.portfolio-contact-2 {
+    color: #282828;
+    cursor: pointer;
+    font-family: "Lusitana", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 445px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 190px;
+    transition: all 0.2s ease;
+}
+
+.portfolio-contact-3 {
+    color: #282828;
+    cursor: pointer;
+    font-family: "Lusitana", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    left: 54px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1px;
+    width: 210px;
+    transition: all 0.2s ease;
+}
+
+.portfolio-overlap-group1 {
+    height: 271px;
+    width: 436px;
+    left: 1294px;
+    top: 2595px;
+    position: absolute;
+}
+
+.portfolio-bg-circle {
+    background-color: #e4e4e4cc;
+    border-radius: 143.5px/135.5px;
+    height: 271px;
+    width: 287px;
+    left: 48px;
+    top: 0;
+    position: absolute;
+}
+
+.portfolio-self-description {
+    color: #282828;
+    font-family: "Italiana", Helvetica;
+    font-size: 50px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 189px;
+    width: 436px;
+}
+
+.portfolio-self-description-4 {
+    color: #282828;
+    font-family: "Italiana", Helvetica;
+    font-size: 55px;
+    font-weight: 400;
+    left: 3px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 63px;
+    width: 433px;
+}
+
+.portfolio-self-description-3 {
+    color: #282828;
+    font-family: "Italiana", Helvetica;
+    font-size: 55px;
+    font-weight: 400;
+    left: 431px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 181px;
+    width: 616px;
+}
+
+.portfolio-self-description-2 {
+    color: #282828;
+    font-family: "Italiana", Helvetica;
+    font-size: 55px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 75px;
+    width: 523px;
+    transition: all 0.2s ease;
+}
+
+.portfolio-self-description-1 {
+    color: #282828;
+    font-family: "Italiana", Helvetica;
+    font-size: 55px;
+    font-weight: 400;
+    left: 531px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 1896px;
+    width: 1262px;
+}
+
+.portfolio-overlap-group2 {
+    height: 416px;
+    width: 1047px;
+    left: 247px;
+    top: 2324px;
+    position: absolute;
+}
+
+.portfolio-bg-circle-2 {
+    background-color: #e4e4e4cc;
+    border-radius: 143.5px/135.5px;
+    height: 271px;
+    width: 287px;
+    left: 636px;
+    top: 145px;
+    position: absolute;
+}
+
+.portfolio-bg-circle-1 {
+    background-color: #e4e4e4cc;
+    border-radius: 143.5px/135.5px;
+    height: 271px;
+    width: 287px;
+    left: 32px;
+    top: 0;
+    position: absolute;
+}
+
+.portfolio-overlap-group4 {
+    height: 139px;
+    width: 422px;
+    left: 1299px;
+    top: 624px;
+    position: absolute;
+}
+
+.portfolio-title-r {
+    color: #282828;
+    font-family: "Italiana", Helvetica;
+    font-size: 50px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 64px;
+    width: 422px;
+}
+
+.portfolio-title-r-1 {
+    color: #282828;
+    font-family: "Pinyon Script", Helvetica;
+    font-size: 60px;
+    font-weight: 400;
+    left: 91px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 239px;
+}
+
+.portfolio-title-l {
+    color: #282828;
+    font-family: "Italiana", Helvetica;
+    font-size: 55px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 327px;
+    width: 490px;
+}
+
+.portfolio-title-l-1 {
+    color: #282828;
+    font-family: "Pinyon Script", Helvetica;
+    font-size: 60px;
+    font-weight: 400;
+    left: 86px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 267px;
+    width: 312px;
+}
+
+.portfolio-overlap-group13 {
+    height: 591px;
+    width: 1084px;
+    left: 177px;
+    top: 367px;
+    position: absolute;
+}
+
+.portfolio-overlap-group5 {
+    height: 591px;
+    width: 1084px;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.portfolio-profile-pic {
+    height: 591px;
+    width: 601px;
+    left: 483px;
+    top: 0;
+    object-fit: cover;
+    position: absolute;
+}
+
+.portfolio-aboutme {
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    left: 1629px;
+    top: 65px;
+    transition: all 0.2s ease;
+    position: fixed;
+}
+
+.portfolio-stack {
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    left: 1729px;
+    top: 65px;
+    transition: all 0.2s ease;
+    position: fixed;
+}
+
+.portfolio-contact {
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    left: 1529px;
+    top: 65px;
+    transition: all 0.2s ease;
+    position: fixed;
+}
