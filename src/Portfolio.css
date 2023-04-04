@@ -61,37 +61,184 @@
 .projects {
     background-color: #ebebeb;
     margin: 836px auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    padding: 90px;
 }
 .portfolio-stack {
-    width: 50px;
-    height: 50px;
+    width: 90px;
+    height: 90px;
 }
 .vline-1, .vline-2 {
-    height: 250px;
+    height: 450px;
     width: 50px;
 }
 .swe-right {
     font-family: 'Lato', sans-serif;
-    font-size: 30px;
-    color: #282828;
+    font-size: 55px;
     text-decoration: none;
 }
+.projects-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.tech-stack-1 {
+    position: absolute;
+    top: 100px;
+    left: 470px;
+}
+.tech-stack-2 {
+    position: absolute;
+    top: 250px;
+    left: 290px;
+}
+.tech-stack-3 {
+    position: absolute;
+    bottom: 110px;
+    left: 470px;
+}
+.project-l {
+    position: absolute;
+    top: 90px;
+    right: 480px;
+    color: #282828;
+}
+.project-g {
+    position: absolute;
+    top: 210px;
+    right: 280px;
+    color: #282828;
+}
+.project-j {
+    position: absolute;
+    bottom: 240px;
+    right: 490px;
+    color: #282828;
+}
+.project-q {
+    position: absolute;
+    bottom: 110px;
+    right: 420px;
+    color: #282828;
+}
+
+
 /* this is for aboutme */
 .aboutme {
     background-color: #d0d0d0;
-    top: 0;
+    margin: 1016px auto;
+    padding: 5px;
+    position: relative;
 }
+.aboutMe-1 {
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 30px;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    color: #282828;
+    
+}
+.aboutMe-2 a, .aboutMe-3, .aboutMe-4 {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: #282828;
+}
+.aboutme-wrap {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.aboutMe-2, .aboutMe-3, .aboutMe-4 {
+    height: 650px;
+    width: 350px;
+}
+.aboutMe-2 p {
+    position: absolute;
+    top: 500px;
+    left: 160px;
+    color: #282828;
+}
+.aboutMe-2 img {
+    margin: 0 auto;
+    height: 400px;
+    width: 400px;
+}
+.aboutMe-3 p {
+    position: absolute;
+    top: 600px;
+    left: 800px;
+    color: #282828;
+}
+.aboutMe-3 img {
+   margin-top: 100px;
+   height: 400px;
+    width: 400px;
+}
+.aboutMe-4 p {
+    position: absolute;
+    bottom: 180px;
+    right: 250px;
+    color: #282828;
+}
+.aboutme-more {
+    position: absolute;
+    bottom: 170px;
+    right: 250px;
+    color: #A062EB;
+    font-size: 35px;
+}
+.aboutMe-4 img {
+    margin-top: 220px;
+    height: 400px;
+    width: 400px;
+}
+
+
+
+
 /* this is for contact */
 .contact {
     background-color: #d0d0d0;
-    top: 0;
+    margin-top: 0;
+    padding: 30px;
+    position: relative;
+    height: 150px;
 }
-
-
+.contact a {
+    text-decoration: none;
+    color: #282828;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 50px;
+}
+.contact img {
+    height: 30px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 60px;
+}
+.portfolio-contact-3 {
+    position: absolute;
+    top: 95px;
+    left: 600px;
+}
+.portfolio-contact-2 {
+    position: absolute;
+    top: 95px;
+    left: 900px;
+}
+.portfolio-contact-1 {
+    position: absolute;
+    top: 95px;
+    left: 1200px;
+}
 
 
 
