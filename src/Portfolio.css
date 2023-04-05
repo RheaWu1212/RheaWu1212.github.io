@@ -1,3 +1,7 @@
+body {
+    margin-left: 0;
+    margin-right: 0;
+}
 
 /* this is for header */
 .header {
@@ -60,7 +64,7 @@
 /* this is for projects */
 .projects {
     background-color: #ebebeb;
-    margin: 836px auto;
+    margin-top: 836px;
     position: relative;
     padding: 90px;
 }
@@ -127,7 +131,7 @@
 /* this is for aboutme */
 .aboutme {
     background-color: #d0d0d0;
-    margin: 1016px auto;
+    margin: 0;
     padding: 5px;
     position: relative;
 }
@@ -203,7 +207,7 @@
 /* this is for contact */
 .contact {
     background-color: #d0d0d0;
-    margin-top: 0;
+    margin: 0;
     padding: 30px;
     position: relative;
     height: 150px;

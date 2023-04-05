@@ -1,24 +1,4 @@
 import './portfolio.css';
-// import git from './image/git.svg';
-// import github from './image/github.svg';
-// import docker from './image/docker.svg';
-// import aws from './image/aws.svg';
-// import css from './image/css.svg';
-// import express from './image/expressjs.svg';
-// import graphql from './image/graphql.svg';
-// import html from './image/html.svg';
-// import mongodb from './image/mongodb.svg';
-// import node from './image/nodejs.svg';
-// import postgresql from './image/postgresql.svg';
-// import profilePic from './image/profile-pic.png';
-// import react from './image/reactjs.svg';
-// import typescript from './image/typescript.svg';
-// import webpack from './image/webpack.svg';
-// import verLine from './image/line-v.svg';
-// import horLine from './image/line-h.svg';
-// import contact from './image/contact.svg';
-// import aboutMe from './image/aboutme.svg';
-// import stack from './image/stack.svg';
 // import React, { useState, useEffect } from 'react';
 // import { Route, Routes, Navigate } from 'react-router-dom';
 import HeaderBar from './components/HeaderBar';
@@ -28,15 +8,25 @@ import Contact from './components/Contact';
 
 export const Portfolio = () => {
   return (
-    <div>
+    <div className='root-page'>
+    <section className='header'>
       <HeaderBar />
+    </section>
+    <section className='body'>
       <Projects />
       <AboutMe />
+    </section>  
+    <section className='footer'>
       <Contact />
+    </section>
     </div>
 
   )
 }
+
+
+
+
     // <div className='portfolio-p-wrapper'>
     //   <div className='portfolio-p'>
     //     <div className='portfolio-overlap'>
