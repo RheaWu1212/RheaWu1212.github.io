@@ -1,17 +1,17 @@
 import React from 'react';
-import circle from '../image/circle.svg';
+import circle from '../image/circle-pink.svg';
 
 const AboutMe = () => {
     return (
         <div className='aboutme'>
             <div className='aboutMe-1'>
                 <p className='aboutme-sum'>
-                    but also a human that turns interests into knowledge
+                    but also a human that turns interests into KNOWLEDGE
                     <br />
                     <br />
-                    turns failure into motivation <br />
+                    turns failure into MOTIVATION <br />
                     <br />
-                    turns fear into power
+                    turns fear into POWER
                 </p>
             </div>
             <div className='aboutme-wrap'>

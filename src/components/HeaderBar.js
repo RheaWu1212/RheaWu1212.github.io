@@ -7,7 +7,7 @@ import stack from '../image/stack.svg';
 const HeaderBar = () => {
     return (
         <div className='header'>
-            <div className='header-wrap'>
+            
                 <div className='icon'>
                     <img className='profile-aboutme' src={aboutMe} />
                     <img className='profile-stack' src={stack} />
@@ -37,7 +37,7 @@ const HeaderBar = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            
         </div>
     )
 }

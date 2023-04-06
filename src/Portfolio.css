@@ -1,12 +1,6 @@
-body {
-    margin-left: 0;
-    margin-right: 0;
-    background-size: cover;
-}
-
 /* this is for header */
 .header {
-    background-color: #d0d0d0;
+    background-color: #efeadd;
     width: 100%;
     top: 0;
     position: absolute;
@@ -26,14 +20,14 @@ body {
     font-weight: 400;
     font-size: 180px;
     text-align: center;
-    text-shadow: #ebebeb 2px 5px;
+    text-shadow: #daaa9e 6px 6px 6px;
     margin: 60px auto 0 auto;
-    color: #282828;
+    color: #234c46;
 }
 .profile-pic {
     width: 500px;
     height: 500px;
-    border: 3px #9d00ff;
+    border: 3px #62558a;
     border-radius: 50%;
 }
 .profile-title {
@@ -54,17 +48,19 @@ body {
 .profile-title-l-2, .profile-title-r-2 {
     font-family: 'Lato', sans-serif;
     font-size: 50px;
-    color: #282828
+    color: #62558a;
+    text-shadow: #daaa9e 4px 4px 5px;
 }
 .profile-title-l-1, .profile-title-r-1 {
     font-family: 'Italianno', cursive;
     font-size: 50px;
-    color: #282828
+    color: #62558a;
+    text-shadow: #c2bbcd 2px 3px;
 }
 
 /* this is for projects */
 .projects {
-    background-color: #ebebeb;
+    background-color: #c2bbcd;
     margin-top: 836px;
     position: relative;
     padding: 90px;
@@ -125,48 +121,52 @@ body {
     position: absolute;
     top: 20px;
     right: 270px;
-    color: #282828;
+    color: #efeadd;
+    text-shadow: #efeadd 2px 3px 5px;
 }
 .project-g {
     position: absolute;
     top: 135px;
     right: 100px;
-    color: #282828;
+    color: #efeadd;
+    text-shadow: #efeadd 2px 3px 5px;
 }
 .project-j {
     position: absolute;
     bottom: 140px;
     right: 290px;
-    color: #282828;
+    color: #efeadd;
+    text-shadow: #efeadd 2px 3px 5px;
 }
 .project-q {
     position: absolute;
     bottom: 30px;
     right: 250px;
-    color: #282828;
+    color: #efeadd;
+    text-shadow: #efeadd 2px 3px 5px;
 }
 
 
 /* this is for aboutme */
 .aboutme {
-    background-color: #d0d0d0;
+    background-color: #efeadd;
     margin: 0;
     padding: 15px;
     position: relative;
 }
 .aboutMe-1 {
     text-align: right;
-    margin-right: 80px;
+    margin-right: 180px;
     margin-top: 60px;
     font-family: 'Lato', sans-serif;
-    font-size: 40px;
-    color: #282828;   
+    font-size: 45px;
+    color: #62558a;   
+    text-shadow: #cb7f1d 2px 3px 4px;
 }
 .aboutMe-2 a, .aboutMe-3, .aboutMe-4 {
     text-decoration: none;
     font-family: 'Lato', sans-serif;
-    font-size: 30px;
-    color: #282828;
+    font-size: 38px;
 }
 .aboutme-wrap {
     margin-top: 80px;
@@ -179,7 +179,6 @@ body {
     height: 600px;
     width: 380px;
 }
-
 .aboutMe-2, .aboutMe-3, .aboutMe-4 {
     height: 650px;
     width: 350px;
@@ -188,13 +187,15 @@ body {
     position: absolute;
     top: 130px;
     left: 30px;
-    color: #282828;
+    color: #cb7f1d;
     text-align: center;
+    text-shadow: #62558a 1px 2px;
 }
 .aboutMe-2 img {
     margin: 0 auto;
     height: 400px;
     width: 400px;
+    opacity: 0.3;
 }
 .circle-wrap-2 {
     position: relative;
@@ -203,15 +204,17 @@ body {
 }
 .aboutMe-3 p {  
     position: absolute;
-    top: 230px;
-    left: 30px;
-    color: #282828;
+    top: 200px;
+    left: 10px;
+    color: #cb7f1d;
     text-align: center;
+    text-shadow: #62558a 1px 2px;
 }
 .aboutMe-3 img {
     margin-top: 100px;
     height: 400px;
     width: 400px;
+    opacity: 0.3;
 }
 .circle-wrap-3 {
     position: relative;
@@ -220,23 +223,26 @@ body {
 }
 .aboutMe-4 p {
     position: absolute;
-    bottom: 140px;
-    right: 50px;
-    color: #282828;
+    bottom: 120px;
+    right: 20px;
+    color: #cb7f1d;
     text-align: center;
+    text-shadow: #62558a 1px 2px;
 }
 .aboutme-more {
     position: absolute;
-    bottom: 120px;
-    right: 55px;
-    color: #A062EB;
-    font-size: 35px;
+    bottom: 100px;
+    right: 20px;
+    color: #62558a;
+    font-size: 45px;
     text-align: center;
+    text-shadow: #daaa9e 3px 3px ;
 }
 .aboutMe-4 img {
     margin-top: 220px;
     height: 400px;
     width: 400px;
+    opacity: 0.3;
 }
 
 
@@ -244,7 +250,7 @@ body {
 
 /* this is for contact */
 .contact {
-    background-color: #d0d0d0;
+    background-color: #efeadd;
     margin: 0;
     padding: 30px;
     position: relative;
@@ -253,9 +259,10 @@ body {
 }
 .contact-wrap-a a {
     text-decoration: none;
-    color: #282828;
+    color: #daaa9e;
+    text-shadow: #cb7f1d 3px 4px;
     font-family: 'Lato', sans-serif;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 50px; 
 }
 .hline {
@@ -268,24 +275,37 @@ body {
 }
 .contact-3 {
     position: absolute;
-    top: 115px;
+    top: 110px;
     left: 600px;
 }
 .contact-2 {
     position: absolute;
-    top: 115px;
+    top: 110px;
     left: 900px;
 }
 .contact-1 {
     position: absolute;
-    top: 115px;
+    top: 110px;
     left: 1200px;
 }
 
+
+/* website-wise*/
 @media (min-width: 600px) {
     width: 50%;
 }
 
-
-
+html {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: overlay;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
 
