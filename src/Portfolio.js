@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 
 export const Portfolio = () => {
   return (
-    <div className='root-page'>
+    <>
     <section className='header'>
       <HeaderBar />
     </section>
@@ -19,8 +19,7 @@ export const Portfolio = () => {
     <section className='footer'>
       <Contact />
     </section>
-    </div>
-
+    </>
   )
 }
 

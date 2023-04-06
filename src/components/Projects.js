@@ -19,44 +19,49 @@ const Projects = () => {
     return (
         <div className='projects'>
             <div className='projects-wrap'>
-                <div className='swe-left'>
-                    <div className='tech-stack-1'>
-                        <img className='portfolio-stack' src={mongodb} />
-                        <img className='portfolio-stack' src={express} />
-                        <img className='portfolio-stack' src={react} />
-                        <img className='portfolio-stack' src={node} />
-                        <img className='portfolio-stack' src={html} />
-                        <img className='portfolio-stack' src={css} />
+                <div className='swe-left-wrap'>
+                    <div className='swe-left'>
+                        <div className='tech-stack-1'>
+                            <img className='portfolio-stack' src={mongodb} />
+                            <img className='portfolio-stack' src={express} />
+                            <img className='portfolio-stack' src={react} />
+                            <img className='portfolio-stack' src={node} />
+                            <img className='portfolio-stack' src={html} />
+                            <img className='portfolio-stack' src={css} />
+                        </div>
+                        <div className='tech-stack-2'>
+                            <img className='portfolio-stack' src={typescript} />
+                            <img className='portfolio-stack' src={postgresql} />
+                            <img className='portfolio-stack' src={graphql} />
+                        </div>
+                        <div className='tech-stack-3'>
+                            <img className='portfolio-stack' src={webpack} />
+                            <img className='portfolio-stack' src={aws} />
+                            <img className='portfolio-stack' src={docker} />
+                            <img className='portfolio-stack' src={git} />
+                            <img className='portfolio-stack' src={github} />
+                        </div>
+                        <img className='vline-1' src={verLine} />
                     </div>
-                    <div className='tech-stack-2'>
-                        <img className='portfolio-stack' src={typescript} />
-                        <img className='portfolio-stack' src={postgresql} />
-                        <img className='portfolio-stack' src={graphql} />
-                    </div>
-                    <div className='tech-stack-3'>
-                        <img className='portfolio-stack' src={webpack} />
-                        <img className='portfolio-stack' src={aws} />
-                        <img className='portfolio-stack' src={docker} />
-                        <img className='portfolio-stack' src={git} />
-                        <img className='portfolio-stack' src={github} />
-                    </div>
-                    <img className='vline-1' src={verLine} />
                 </div>
-                <div className='swe-right'>
-                    <a href='https://lightql.com/' target='_blank'>
-                        <div className='project-l'>LightQL</div>
-                    </a>
-                    <a href='https://github.com/RheaWu1212/pfaIteration' target='_blank'>
-                        <div className='project-g'>GameBetter</div>
-                    </a>
-                    <a href='https://github.com/Geodudr/Geodudr' target='_blank'>
-                        <div className='project-j'>Jushin</div>
-                    </a>
-                    <a href='https://github.com/quittersarewinners/Quitr' target='_blank'>
-                        <div className='project-q'>Quitr</div>
-                    </a>
-                    <img className='vline-2' src={verLine} />
+                <div className='swe-right-wrap'>
+                    <div className='swe-right'>
+                        <a href='https://lightql.com/' target='_blank'>
+                            <div className='project-l'>LightQL</div>
+                        </a>
+                        <a href='https://github.com/RheaWu1212/pfaIteration' target='_blank'>
+                            <div className='project-g'>GameBetter</div>
+                        </a>
+                        <a href='https://github.com/Geodudr/Geodudr' target='_blank'>
+                            <div className='project-j'>Jushin</div>
+                        </a>
+                        <a href='https://github.com/quittersarewinners/Quitr' target='_blank'>
+                            <div className='project-q'>Quitr</div>
+                        </a>
+                        <img className='vline-2' src={verLine} />
+                    </div>
                 </div>
+                
             </div>
         </div>
     )
