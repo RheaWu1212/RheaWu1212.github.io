@@ -1,10 +1,9 @@
 import React from 'react';
-import horLine from '../image/line-h.svg';
 
 const Contact = () => {
     return (
         <div className='contact'>
-            <div className='contact-wrap-a'>
+            <div className='contact-wrap'>
                 <a href='mailto:rheawu1212@gmail.com' target='_blank' className='contact-3'>
                     <div className='portfolio-contact'>EMAIL</div>
                 </a>
@@ -15,7 +14,6 @@ const Contact = () => {
                     <div className='portfolio-contact'>MEDIUM</div>
                 </a>
             </div>
-            <img className='hline' src={horLine} />
         </div>
     )
 }

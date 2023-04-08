@@ -1,11 +1,39 @@
 /* this is for header */
 .header {
-    background-color: #efeadd;
+    background-image: url("./image/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
+    height: 1200px;
     top: 0;
     position: absolute;
 }
+.profile-name {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 230px;
+    text-align: center;
+    margin-top: 450px;
+    color: #efeadd;
+}
+.nav {
+    margin-top: 70px;
+}
+.nav-wrap {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    font-family: 'Rubik Glitch', cursive;
+    font-size: 40px;
+    color: #efeadd;
+    text-shadow: #9EC4DA 2px 2px;
+}
+.nav-wrap h3 {
+    margin: 1 1 1 1;
+    width: 100%;
+    text-align: center;
+}
 
+/* 
 .profile-aboutme, .profile-stack, .profile-contact {
     width: 100px;
     height: 100px;
@@ -15,15 +43,7 @@
     right: 15px;
     top: 15px;
 }
-.profile-name {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 180px;
-    text-align: center;
-    text-shadow: #daaa9e 6px 6px 6px;
-    margin: 60px auto 0 auto;
-    color: #234c46;
-}
+
 .profile-pic {
     width: 500px;
     height: 500px;
@@ -56,15 +76,68 @@
     font-size: 50px;
     color: #62558a;
     text-shadow: #c2bbcd 2px 3px;
-}
+} */
 
 /* this is for projects */
 .projects {
-    background-color: #c2bbcd;
-    margin-top: 836px;
-    position: relative;
+    background-color: #efeadd;
+    margin-top: 1200px;
     padding: 90px;
+    overflow: auto;
 }
+.projects-lightql, .projects-GameBetter, .projects-Jushin, .projects-Quitr {
+    height: 1000px;
+    font-family: 'Rubik Mono One', sans-serif;
+    margin-top: 50px;
+}
+.projects h2 {
+    font-size: 160px;
+    text-align: center;
+    color: #282828;
+}
+.projects p {
+    font-size: 50px;
+    text-align: center;
+    color: #282828;
+}
+.projects button {
+    font-size: 30px;
+    text-align: center;
+    height: 80px;
+    width: 400px;
+    margin-top: 90px; 
+    margin-left: 650px;
+    font-family: 'Rubik Mono One', sans-serif;
+    background-color: #282828;
+    color: #efeadd;
+    border: 4px #282828;
+    border-radius: 40px;
+    box-shadow: 10px 10px #f5f5f5;
+}
+.projects button:hover {
+    background-color: #efeadd;
+    color: #282828;
+    border: 4px #efeadd;
+    border-radius: 40px;
+    box-shadow: 10px 10px #000;
+}
+.tech-stack {
+    height: 900px;
+}
+.tech-stack p {
+    font-family: 'Rubik Maze', cursive;
+    font-size: 100px;
+    text-align: right;
+    color: #000;
+}
+.tech-stack .portfolio-stack {
+    height: 150px;
+    width: 150px;
+    margin: 50px 95px 30px 0px;
+    opacity: 0.9;
+}
+
+/* 
 .portfolio-stack {
     width: 90px;
     height: 90px;
@@ -121,40 +194,81 @@
     position: absolute;
     top: 20px;
     right: 270px;
-    color: #efeadd;
+    color: #62558a;
     text-shadow: #efeadd 2px 3px 5px;
 }
 .project-g {
     position: absolute;
     top: 135px;
     right: 100px;
-    color: #efeadd;
+    color: #62558a;
     text-shadow: #efeadd 2px 3px 5px;
 }
 .project-j {
     position: absolute;
     bottom: 140px;
     right: 290px;
-    color: #efeadd;
+    color: #62558a;
     text-shadow: #efeadd 2px 3px 5px;
 }
 .project-q {
     position: absolute;
     bottom: 30px;
     right: 250px;
-    color: #efeadd;
+    color: #62558a;
     text-shadow: #efeadd 2px 3px 5px;
-}
+} */
 
 
 /* this is for aboutme */
 .aboutme {
-    background-color: #efeadd;
-    margin: 0;
-    padding: 15px;
-    position: relative;
+    background-color: #f5f5f5;
+    margin-top: 0;
+    padding: 30px;
+    height: 900px;
+    overflow: hidden;
 }
-.aboutMe-1 {
+.aboutme p {
+    margin-top: 200px;
+    margin-right: 400px;
+    margin-left: 450px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 25px;
+    text-align: right;
+    color: #282828;
+}
+.link {
+    text-decoration: none;
+    color: #282828;
+}
+.link:hover {
+    color: #9EC4DA;
+    text-shadow: #282828 5px 5px 3px;
+}
+.aboutme .bg-1 {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    margin-top: -150px;
+    margin-left: 1400px;
+    border: 1px #f5f5f5;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+.aboutme .bg-2 {
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    margin-top: -300px;
+    margin-left: 100px;
+    border: 1px #f5f5f5;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+
+
+/* .aboutMe-1 {
     text-align: right;
     margin-right: 180px;
     margin-top: 60px;
@@ -243,7 +357,7 @@
     height: 400px;
     width: 400px;
     opacity: 0.3;
-}
+} */
 
 
 
@@ -251,50 +365,35 @@
 /* this is for contact */
 .contact {
     background-color: #efeadd;
-    margin: 0;
-    padding: 30px;
-    position: relative;
-    height: 260px;
-    width: 100%;
+    margin-top: 0;
+    padding: 90px;
+    height: 30px;
 }
-.contact-wrap-a a {
+.contact-wrap a {
     text-decoration: none;
-    color: #daaa9e;
-    text-shadow: #cb7f1d 3px 4px;
-    font-family: 'Lato', sans-serif;
-    font-size: 35px;
-    font-weight: 50px; 
+    color: #282828;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 200px;
 }
-.hline {
-    height: 10px;
-    width: 1050px;
-    padding: 20px;
-    margin-left: 370px;
-    margin-top: 80px;
-    display: block;
+.contact-wrap {
+    display: flex;
+    flex-direction: row;
+    margin-left: 450px;
 }
-.contact-3 {
-    position: absolute;
-    top: 110px;
-    left: 600px;
+.contact-wrap a:hover {
+    font-family: 'Rubik Glitch', cursive;
+    font-size: 50px;
+    color: #9EC4DA;
 }
-.contact-2 {
-    position: absolute;
-    top: 110px;
-    left: 900px;
-}
-.contact-1 {
-    position: absolute;
-    top: 110px;
-    left: 1200px;
-}
+
 
 
 /* website-wise*/
-@media (min-width: 600px) {
+@media screen and (min-width: 480px) {
     width: 50%;
 }
-
 html {
     height: 100vh;
     width: 100vw;

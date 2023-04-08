@@ -18,7 +18,58 @@ import verLine from '../image/line-v.svg';
 const Projects = () => {
     return (
         <div className='projects'>
-            <div className='projects-wrap'>
+
+            <div className='projects-lightql'>
+                <h2>LightQL</h2>
+                <p>Client-side Caching Tool for GraphQL</p>
+                <a href='https://lightql.com/' target='_blank'>
+                    <button className='project-l'>Website Here</button>
+                </a>
+            </div>
+
+            <div className='projects-GameBetter'>
+                <h2>GameBetter</h2>
+                <p>Easy and Quick Assess for Smart Games</p>
+                <a href='https://github.com/RheaWu1212/pfaIteration' target='_blank'>
+                    <button className='project-g'>More Info</button>
+                </a>
+            </div>
+
+            <div className='projects-Jushin'>
+                <h2>Jushin</h2>
+                <p>Online Web Reception Chat Room</p>
+                <a href='https://github.com/Geodudr/Geodudr' target='_blank'>
+                    <button className='project-j'>More Info</button>
+                </a>
+            </div>
+
+            <div className='projects-Quitr'>
+                <h2>Quitr</h2>
+                <p>Web App That Helps You Quit Bad Habbits</p>
+                <a href='https://github.com/quittersarewinners/Quitr' target='_blank'>
+                    <button className='project-q'>More Info</button>
+                </a>
+            </div>
+
+            <div className='tech-stack'>
+                <p>IN CASE YOU WANT TO KNOW WHAT TECHS THAT I USE</p>
+                <img className='portfolio-stack' src={mongodb} />
+                <img className='portfolio-stack' src={express} />
+                <img className='portfolio-stack' src={react} />
+                <img className='portfolio-stack' src={node} />
+                <img className='portfolio-stack' src={html} />
+                <img className='portfolio-stack' src={css} />
+                <img className='portfolio-stack' src={typescript} />
+                <img className='portfolio-stack' src={postgresql} />
+                <img className='portfolio-stack' src={graphql} />
+                <img className='portfolio-stack' src={webpack} />
+                <img className='portfolio-stack' src={aws} />
+                <img className='portfolio-stack' src={docker} />
+                <img className='portfolio-stack' src={git} />
+                <img className='portfolio-stack' src={github} />
+            </div>
+
+            {/* <div className='projects-wrap'>
                 <div className='swe-left-wrap'>
                     <div className='swe-left'>
                         <div className='tech-stack-1'>
@@ -62,7 +113,7 @@ const Projects = () => {
                     </div>
                 </div>
                 
-            </div>
+            </div> */}
         </div>
     )
 };
