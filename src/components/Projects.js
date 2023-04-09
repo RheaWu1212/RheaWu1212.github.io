@@ -13,7 +13,6 @@ import postgresql from '../image/postgresql.svg';
 import react from '../image/reactjs.svg';
 import typescript from '../image/typescript.svg';
 import webpack from '../image/webpack.svg';
-import verLine from '../image/line-v.svg';
 
 const Projects = () => {
     return (
@@ -52,7 +51,7 @@ const Projects = () => {
             </div>
 
             <div className='tech-stack'>
-                <p>IN CASE YOU WANT TO KNOW WHAT TECHS THAT I USE</p>
+                <p>IN CASE YOU WANT TO KNOW WHAT TECH THAT I USE</p>
                 <img className='portfolio-stack' src={mongodb} />
                 <img className='portfolio-stack' src={express} />
                 <img className='portfolio-stack' src={react} />

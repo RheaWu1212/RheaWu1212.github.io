@@ -4,19 +4,24 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 1200px;
+    height: 900px;
     top: 0;
     position: absolute;
 }
 .profile-name {
+    height: 1000px;
+    width: 100%;
+    margin-top: 30px;
+}
+.profile-name h1 {
     font-family: 'Rubik Mono One', sans-serif;
-    font-size: 230px;
+    font-size: 16vw;
     text-align: center;
-    margin-top: 450px;
+    margin-top: 350px;
     color: #efeadd;
 }
 .nav {
-    margin-top: 70px;
+    margin-top: 60px;
 }
 .nav-wrap {
     display: flex;
@@ -33,72 +38,36 @@
     text-align: center;
 }
 
-/* 
-.profile-aboutme, .profile-stack, .profile-contact {
-    width: 100px;
-    height: 100px;
-}
-.icon {
-    position: fixed;
-    right: 15px;
-    top: 15px;
-}
-
-.profile-pic {
-    width: 500px;
-    height: 500px;
-    border: 3px #62558a;
-    border-radius: 50%;
-}
-.profile-title {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-}
-.profile-title-l, .profile-title-m, .profile-title-r {
-    width: 500px;
-    height: 500px;
-}
-.title-wrap-l, .title-wrap-r {
-    text-align: center;
-    margin: 150px 60px;
-}
-.profile-title-l-2, .profile-title-r-2 {
-    font-family: 'Lato', sans-serif;
-    font-size: 50px;
-    color: #62558a;
-    text-shadow: #daaa9e 4px 4px 5px;
-}
-.profile-title-l-1, .profile-title-r-1 {
-    font-family: 'Italianno', cursive;
-    font-size: 50px;
-    color: #62558a;
-    text-shadow: #c2bbcd 2px 3px;
-} */
 
 /* this is for projects */
 .projects {
     background-color: #efeadd;
-    margin-top: 1200px;
-    padding: 90px;
+    margin-top: 900px;
     overflow: auto;
 }
-.projects-lightql, .projects-GameBetter, .projects-Jushin, .projects-Quitr {
-    height: 1000px;
+.projects-lightql, .projects-Jushin, .projects-GameBetter, .projects-Quitr {
+    background-color: #efeadd;
+    height: 900px;
     font-family: 'Rubik Mono One', sans-serif;
-    margin-top: 50px;
+    margin-top: 200px;
 }
 .projects h2 {
-    font-size: 160px;
+    width: 100%;
+    font-size: 11vw;
     text-align: center;
     color: #282828;
-}
+    margin-top: 0px;
+} 
 .projects p {
     font-size: 50px;
     text-align: center;
     color: #282828;
+}
+.projects a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
 }
 .projects button {
     font-size: 30px;
@@ -106,18 +75,17 @@
     height: 80px;
     width: 400px;
     margin-top: 90px; 
-    margin-left: 650px;
     font-family: 'Rubik Mono One', sans-serif;
     background-color: #282828;
     color: #efeadd;
     border: 4px #282828;
-    border-radius: 40px;
-    box-shadow: 10px 10px #f5f5f5;
+    border-radius: 35px;
+    box-shadow: 9px 10px #9EC4DA;
 }
 .projects button:hover {
-    background-color: #efeadd;
+    background-color: #9EC4DA;
     color: #282828;
-    border: 4px #efeadd;
+    border: 4px #9EC4DA;
     border-radius: 40px;
     box-shadow: 10px 10px #000;
 }
@@ -126,98 +94,18 @@
 }
 .tech-stack p {
     font-family: 'Rubik Maze', cursive;
-    font-size: 100px;
+    font-size: 12vh;
     text-align: right;
     color: #000;
+    margin-right: 60px;
+    margin-top: 100px;
 }
 .tech-stack .portfolio-stack {
-    height: 150px;
-    width: 150px;
-    margin: 50px 95px 30px 0px;
+    height: 13vh;
+    width: 13vh;
+    margin: 70px 0 0 90px;
     opacity: 0.9;
 }
-
-/* 
-.portfolio-stack {
-    width: 90px;
-    height: 90px;
-}
-.vline-1 {
-    height: 450px;
-    width: 100px;
-    display: block;
-    margin-left: 180px;
-}
-.vline-2 {
-    height: 450px;
-    width: 100px;
-    display: block;
-    margin-left: 380px;
-}
-.swe-right {
-    font-family: 'Lato', sans-serif;
-    font-size: 55px;
-    text-decoration: none;
-}
-.projects-wrap {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-.swe-left-wrap {
-    position: relative;
-    width: 750px;
-    height: 450px;
-}
-.swe-right-wrap {
-    position: relative;
-    width: 800px;
-    height: 450px;
-}
-.tech-stack-1 {
-    position: absolute;
-    top: 20px;
-    left: 185px;
-}
-.tech-stack-2 {
-    position: absolute;
-    top: 180px;
-    left: 0px;
-}
-.tech-stack-3 {
-    position: absolute;
-    bottom: 10px;
-    left: 185px;
-}
-.project-l {
-    position: absolute;
-    top: 20px;
-    right: 270px;
-    color: #62558a;
-    text-shadow: #efeadd 2px 3px 5px;
-}
-.project-g {
-    position: absolute;
-    top: 135px;
-    right: 100px;
-    color: #62558a;
-    text-shadow: #efeadd 2px 3px 5px;
-}
-.project-j {
-    position: absolute;
-    bottom: 140px;
-    right: 290px;
-    color: #62558a;
-    text-shadow: #efeadd 2px 3px 5px;
-}
-.project-q {
-    position: absolute;
-    bottom: 30px;
-    right: 250px;
-    color: #62558a;
-    text-shadow: #efeadd 2px 3px 5px;
-} */
 
 
 /* this is for aboutme */
@@ -225,17 +113,23 @@
     background-color: #f5f5f5;
     margin-top: 0;
     padding: 30px;
-    height: 900px;
-    overflow: hidden;
+    height: 940px;
+    overflow: scroll;
+}
+.para {
+    text-align: right;
+    margin-right: 24vh;
+    margin-left: 30vh;
 }
 .aboutme p {
-    margin-top: 200px;
-    margin-right: 400px;
-    margin-left: 450px;
+    margin-top: 5vh;
     font-family: 'Rubik Mono One', sans-serif;
-    font-size: 25px;
-    text-align: right;
+    font-size: 3vh;
     color: #282828;
+}
+.aboutme span {
+    color: #9EC4DA;
+    text-shadow: #FF7755 3px 3px;
 }
 .link {
     text-decoration: none;
@@ -243,157 +137,100 @@
 }
 .link:hover {
     color: #9EC4DA;
-    text-shadow: #282828 5px 5px 3px;
+    text-shadow: #FF7755 6px 5px;
+    font-size: 4vh;
 }
 .aboutme .bg-1 {
-    position: absolute;
-    height: 400px;
-    width: 400px;
-    margin-top: -150px;
-    margin-left: 1400px;
+    height: 35vh;
+    width: 35vh;
+    margin-top: -80px;
+    margin-left: 1000px;
     border: 1px #f5f5f5;
     border-radius: 50%;
     opacity: 0.6;
 }
 .aboutme .bg-2 {
-    position: absolute;
-    height: 600px;
-    width: 600px;
-    margin-top: -300px;
-    margin-left: 100px;
+    height: 55vh;
+    width: 55vh;
+    margin-top: -220px;
+    margin-left: -310px;
     border: 1px #f5f5f5;
     border-radius: 50%;
-    opacity: 0.5;
-}
-
-
-
-/* .aboutMe-1 {
-    text-align: right;
-    margin-right: 180px;
-    margin-top: 60px;
-    font-family: 'Lato', sans-serif;
-    font-size: 45px;
-    color: #62558a;   
-    text-shadow: #cb7f1d 2px 3px 4px;
-}
-.aboutMe-2 a, .aboutMe-3, .aboutMe-4 {
-    text-decoration: none;
-    font-family: 'Lato', sans-serif;
-    font-size: 38px;
-}
-.aboutme-wrap {
-    margin-top: 80px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-.circle-wrap-1 {
+    opacity: 0.4;
     position: relative;
-    height: 600px;
-    width: 380px;
 }
-.aboutMe-2, .aboutMe-3, .aboutMe-4 {
-    height: 650px;
-    width: 350px;
-}
-.aboutMe-2 p {
-    position: absolute;
-    top: 130px;
-    left: 30px;
-    color: #cb7f1d;
-    text-align: center;
-    text-shadow: #62558a 1px 2px;
-}
-.aboutMe-2 img {
-    margin: 0 auto;
-    height: 400px;
-    width: 400px;
-    opacity: 0.3;
-}
-.circle-wrap-2 {
-    position: relative;
-    height: 600px;
-    width: 400px;
-}
-.aboutMe-3 p {  
-    position: absolute;
-    top: 200px;
-    left: 10px;
-    color: #cb7f1d;
-    text-align: center;
-    text-shadow: #62558a 1px 2px;
-}
-.aboutMe-3 img {
-    margin-top: 100px;
-    height: 400px;
-    width: 400px;
-    opacity: 0.3;
-}
-.circle-wrap-3 {
-    position: relative;
-    height: 600px;
-    width: 360px;
-}
-.aboutMe-4 p {
-    position: absolute;
-    bottom: 120px;
-    right: 20px;
-    color: #cb7f1d;
-    text-align: center;
-    text-shadow: #62558a 1px 2px;
-}
-.aboutme-more {
-    position: absolute;
-    bottom: 100px;
-    right: 20px;
-    color: #62558a;
-    font-size: 45px;
-    text-align: center;
-    text-shadow: #daaa9e 3px 3px ;
-}
-.aboutMe-4 img {
-    margin-top: 220px;
-    height: 400px;
-    width: 400px;
-    opacity: 0.3;
-} */
-
-
 
 
 /* this is for contact */
 .contact {
     background-color: #efeadd;
     margin-top: 0;
-    padding: 90px;
+    padding: 80px;
     height: 30px;
+    position: absolute;
+    width: 100%;
 }
 .contact-wrap a {
     text-decoration: none;
     color: #282828;
     font-family: 'Rubik Mono One', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
-    margin-right: 200px;
+    margin-right: 20px;
 }
-.contact-wrap {
+.contact-wrap, .portfolio-contact {
     display: flex;
     flex-direction: row;
-    margin-left: 450px;
+    justify-content: center;
+    align-items: center;
 }
 .contact-wrap a:hover {
-    font-family: 'Rubik Glitch', cursive;
-    font-size: 50px;
+    font-size: 30px;
     color: #9EC4DA;
 }
 
 
 
 /* website-wise*/
-@media screen and (min-width: 480px) {
-    width: 50%;
+@media (min-width: 390px) {
+    body {
+        width: 50%;
+    }
+    /* .aboutme {
+        height: 7500px;
+        overflow: scroll;
+    }
+    .aboutme .para {
+        margin-left: 390px;
+        text-align: left;
+        max-height: 300px;
+        max-width: 700px;
+    }
+    .aboutme img {
+        max-width: 500px;
+        max-height: 500px;
+    }
+    .tech-stack {
+        overflow: auto;
+        height: 2900px;
+        overflow: scroll;
+    }
+    .tech-stack p {
+        font-size: 150px;
+    }
+    .tech-stack img {
+        max-height: 320px;
+        max-width: 320px;
+    }
+    .contact-wrap {
+        margin-left: -100px;
+    }
+    body::-webkit-scrollbar {
+        width: 10px;
+    } */
+    
 }
+
 html {
     height: 100vh;
     width: 100vw;
@@ -406,5 +243,20 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    cursor: url("./image/eye.svg"), pointer;
 }
-
+::selection {
+    color: #efeadd;
+    background: #9EC4DA;
+}
+body::-webkit-scrollbar {
+    width: 15px;
+}
+body::-webkit-scrollbar-track {
+    background: #efeadd;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #9EC4DA;
+    border-radius: 30px;
+    border: 3px solid #9EC4DA;
+}
