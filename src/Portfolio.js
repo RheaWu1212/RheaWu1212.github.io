@@ -1,4 +1,4 @@
-import './portfolio.css';
+import './Portfolio.css';
 // import React, { useState, useEffect } from 'react';
 // import { Route, Routes, Navigate } from 'react-router-dom';
 import HeaderBar from './components/HeaderBar';
