@@ -44,14 +44,14 @@ const Projects = () => {
 
             <div className='projects-Quitr'>
                 <h2>Quitr</h2>
-                <p>Web App That Helps You Quit Bad Habbits</p>
+                <p>Web App That Helps You Quit Bad Habits</p>
                 <a href='https://github.com/quittersarewinners/Quitr' target='_blank'>
                     <button className='project-q'>More Info</button>
                 </a>
             </div>
 
             <div className='tech-stack'>
-                <p>IN CASE YOU WANT TO KNOW WHAT TECH THAT I USE</p>
+                <p>IN CASE YOU WANT TO KNOW WHAT TECH I USE</p>
                 <img className='portfolio-stack' src={mongodb} />
                 <img className='portfolio-stack' src={express} />
                 <img className='portfolio-stack' src={react} />
