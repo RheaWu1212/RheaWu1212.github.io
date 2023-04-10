@@ -1,5 +1,4 @@
 import React from 'react';
-import profilePic from '../image/profilePic-color.png';
 
 const HeaderBar = () => {
     return (
