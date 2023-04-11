@@ -9,14 +9,18 @@ import Contact from './components/Contact';
 export const Portfolio = () => {
   return (
     <>
-    <section className='portfolio-header'>
+    <section className='portfolio-header' id='home'>
       <HeaderBar />
     </section>
     <section className='portfolio-body'>
-      <Projects />
-      <AboutMe />
+      <section id='projects'>
+        <Projects />
+      </section>
+      <section id='about'>
+        <AboutMe />
+      </section>
     </section>  
-    <section className='portfolio-footer'>
+    <section className='portfolio-footer' id='contact'>
       <Contact />
     </section>
     </>

@@ -1,18 +1,33 @@
 import React from 'react';
-
+import { HashLink } from 'react-router-hash-link';
 const HeaderBar = () => {
     return (
         <div className='header'>
                 <div className='nav'>
                     <div className='nav-wrap'>
-                        <h3>HOME</h3>
-                        <h3>PROJECTS</h3>
-                        <h3>ABOUT</h3>
-                        <h3>CONTACTS</h3>
+                        <HashLink smooth to='/#home'>
+                            HOME
+                        </HashLink>
+                        <HashLink smooth to='/#projects'>
+                            PROJECTS
+                        </HashLink>
+                        <HashLink smooth to='/#about'>
+                            ABOUT
+                        </HashLink>
+                        <HashLink smooth to='/#contact'>
+                            CONTACTS
+                        </HashLink>
                     </div>  
                 </div>
                 <div  className='profile-name'>
-                    <h1>RHEA WU</h1>
+                    {/* <h1>RHEA WU</h1> */}
+                    <span>R</span>
+                    <span>H</span>
+                    <span>E</span>
+                    <span>A</span>
+                    <span> </span>
+                    <span>W</span>
+                    <span>U</span>
                 </div>
         </div>
     )

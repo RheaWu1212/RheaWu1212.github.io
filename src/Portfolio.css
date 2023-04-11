@@ -11,32 +11,79 @@
 .profile-name {
     height: 1000px;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 0px;
+    animation: mover 6s linear infinite;
+    display: flex;
+    flex-direction: row;
+    color:  #9EC4DA;
 }
-.profile-name h1 {
+.profile-name span {
+    width: 100%;
+    animation: mover 2s infinite;
+}
+@keyframes mover {
+    0% {
+        text-shadow: 0 0 10px #9EC4DA;
+    }
+    50% {
+        text-shadow: 0 0 20px #9EC4DA;
+        transform: translateY(-70px);
+    }
+    100% {
+        text-shadow: 0 0 10px #9EC4DA;
+    }
+}
+.profile-name span:nth-child(1) {
+    animation-delay: 0s;
+}
+.profile-name span:nth-child(2) {
+    animation-delay: 0.15s;
+}
+.profile-name span:nth-child(3) {
+    animation-delay: 0.25s;
+}
+.profile-name span:nth-child(4) {
+    animation-delay: 0.35s;
+}
+.profile-name span:nth-child(5) {
+    animation-delay: 0.45s;
+}
+.profile-name span:nth-child(6) {
+    animation-delay: 0.55s;
+}
+.profile-name span:nth-child(7) {
+    animation-delay: 0.65s;
+}
+.profile-name span {
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 16vw;
     text-align: center;
-    margin-top: 350px;
+    margin-top: 320px;
     color: #efeadd;
     text-shadow: #9EC4DA 4px 4px;
 }
 .nav {
-    margin-top: 60px;
+    margin-top: 90px;
 }
 .nav-wrap {
     display: flex;
     flex-direction: row;
     height: 100px;
     font-family: 'Rubik Glitch', cursive;
-    font-size: 40px;
-    color: #efeadd;
-    text-shadow: #9EC4DA 2px 2px;
+    font-size: 50px;
 }
-.nav-wrap h3 {
+.nav-wrap a:link, .nav-wrap a:visited, .nav-wrap a:active {
     margin: 1 1 1 1;
     width: 100%;
     text-align: center;
+    text-decoration: none;
+    color: #efeadd;
+    text-shadow: #9EC4DA 2px 2px;
+}
+.nav-wrap a:hover {
+    text-decoration: none;
+    color: #9EC4DA;
+    text-shadow: #efeadd 2px 2px;
 }
 
 
@@ -59,6 +106,7 @@
     color: #282828;
     margin-top: 0px;
 } 
+
 .projects p {
     font-size: 50px;
     text-align: center;
@@ -115,7 +163,8 @@
     margin-top: 0;
     padding: 30px;
     height: 940px;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: none;
 }
 .para {
     text-align: right;
